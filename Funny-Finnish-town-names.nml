@@ -1,0 +1,50 @@
+grf {
+	grfid:	"\57\6D\AB\03";
+	name:	string(STR_GRF_NAME);
+	desc:	string(STR_GRF_DESCRIPTION);
+	version:	3;
+	min_compatible_version:	1;
+}
+
+town_names(A) {
+	styles:	string(STR_GAME_OPTIONS_TOWN_NAME_ALBERTA);
+	{
+	text("Pallinsaari", 1),
+	text("Pallivaha", 1),
+	text("Pallisilmä", 1),
+	text("Pallipuro", 1),
+	text("Hevonperse", 1),
+	text("Hevonperseenmäki", 1),
+	text("Hevonperseenmutka", 1),
+	text("Mulkkuset", 1),
+	text("Mulkkusaari", 1),
+	text("Mulkkuvuori", 1),
+	text("Tissi", 1),
+	text("Tissinpohja", 1),
+	text("Tissikukkulat", 1),
+	text("Pimppiniemi", 1),
+	text("Pillulampi", 1),
+	text("Pissisaari", 1),
+	text("Pervonkallio", 1),
+	text("Pervonoja", 1),
+	text("Pervonmaa", 1),
+	text("Homonlampi", 1),
+	text("Homosaari", 1),
+	text("Neekerisaari", 1),
+	text("Perssilmänlammit", 1),
+	text("Persesilmänlampi", 1),
+	text("Perseenpaistama", 1),
+	text("Tussusaari", 1),
+	text("Tussut", 1),
+	text("Runkunneva", 1),
+	text("Runkausjoki", 1),
+	text("Runkausvaara", 1),
+	text("Terskanperä", 1),
+	text("Terskanlahti", 1),
+	text("Peräpukama", 1),
+	text("Kusipää", 1),
+	text("Satiainen", 1),
+	text("Lesta", 1),
+	text("Nahkahousut", 1),
+	}
+}
