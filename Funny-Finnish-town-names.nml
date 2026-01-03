@@ -1,21 +1,21 @@
 grf {
-	grfid:	"\57\6D\AB\03";
+	grfid:	"\4C\4E\58\01";
 	name:	string(STR_GRF_NAME);
 	desc:	string(STR_GRF_DESCRIPTION);
-	version:	3;
+	version:	1;
 	min_compatible_version:	1;
 }
 
 town_names(A) {
-	styles:	string(STR_GAME_OPTIONS_TOWN_NAME_ALBERTA);
+	styles:	string(STR_GAME_OPTIONS_TOWN_NAME_FUNNISH);
 	{
 	text("Pallinsaari", 1),
 	text("Pallivaha", 1),
 	text("Pallisilmä", 1),
 	text("Pallipuro", 1),
 	text("Hevonperse", 1),
-	text("Hevonperseenmäki", 1),
-	text("Hevonperseenmutka", 1),
+	text("Hevonperseenmäki", 100),
+	text("Hevonperseenmutka", 50),
 	text("Mulkkuset", 1),
 	text("Mulkkusaari", 1),
 	text("Mulkkuvuori", 1),
@@ -42,9 +42,8 @@ town_names(A) {
 	text("Terskanperä", 1),
 	text("Terskanlahti", 1),
 	text("Peräpukama", 1),
-	text("Kusipää", 1),
+	text("Kusipää", 10),
 	text("Satiainen", 1),
-	text("Lesta", 1),
 	text("Nahkahousut", 1),
 	}
 }
